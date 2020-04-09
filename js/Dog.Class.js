@@ -1,4 +1,4 @@
-export default class Dog {
+export default class Dog { // Default! We don't need to use curly braces in scripts.js
   constructor ()
   {
     this.name = '';
