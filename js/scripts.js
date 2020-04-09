@@ -15,5 +15,9 @@ myDog.greeting();
 const myCat = new Cat( 'Barley', 17 );
 myCat.meow();
 myCat.sayHello();
-myCat.birthday();
-myCat.birthday();
+myCat.birthday(); // +1 was 18.
+myCat.birthday(); // +1 is now 19.
+myCat.addToy( 'ball' );
+myCat.addToy( 'scratching post' );
+myCat.addToy( 'mouse' );
+myCat.showToys();
